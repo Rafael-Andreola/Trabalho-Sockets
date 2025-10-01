@@ -21,7 +21,7 @@ O objetivo é comparar o tempo de transmissão do mesmo arquivo utilizando os do
 4. O servidor deve retornar ao cliente o tempo gasto, e o cliente deve exibir o resultado.  
 
 5. Os testes devem ser realizados entre máquinas distintas do laboratório, utilizando um tamanho de buffer específico.  
-   - Neste projeto, foi adotado **BUFFER = 32768 bytes (32 KB)**, pois:  
+   - Neste projeto, foi adotado **BUFFER = 65536 bytes (64 KB)**, pois:  
      - Em TCP, permite enviar grandes blocos de dados de forma eficiente, reduzindo chamadas de sistema;  
      - Em UDP, garante que cada datagrama não ultrapasse o limite máximo teórico (64 KB), evitando erros de envio.  
 
